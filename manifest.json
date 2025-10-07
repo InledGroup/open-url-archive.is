@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Abrir en Archive.is",
+  "version": "1.0",
+  "description": "Abre la pestaña actual en archive.is al hacer clic en el icono.",
+  "permissions": ["tabs"],
+  "action": {
+    "default_title": "Abrir en Archive.is"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+      "16": "icon.png",
+      "32": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+}
